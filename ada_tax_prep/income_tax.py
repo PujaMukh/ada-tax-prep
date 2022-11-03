@@ -29,7 +29,7 @@ def calculate_tax_by_bracket(income, brackets):
         total_tax += round(bracketted_income * rate / 100)
 
     return total_tax
-
+#calculates sum of income
 def calculate_tax_2020(income):
     return calculate_tax_by_bracket(income, TAX_BRACKETS_2020)
 
